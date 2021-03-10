@@ -260,3 +260,12 @@ body {
 .btn:hover {
     background-color: #6bc455;
 }
+
+.footer {
+    padding: 2.5rem 5rem;
+    margin-top: 5rem;
+    color: var(--color-teriary-2);
+    background-color: var(--main-bg-color);
+    text-align: center;
+    font-size: 1.7rem;
+}
