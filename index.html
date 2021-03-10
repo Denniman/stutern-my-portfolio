@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/android-icon-96x96.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Dennis Terna | My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="./assets/logo.PNG" alt="logo" class="logo">
+            <ul class="nav--list">
+                <li class="nav--list__item"><a href="#">Home</a></li>
+                <li class="nav--list__item"><a href="#">Projects</a></li>
+                <li class="nav--list__item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header--text">
+            <p class="paragraph--text paragraph--text__white">
+                <span class="hello--text">Hello, I'm Dennis</span>
+                I'm a software developer currently training with Stutern.
+                I build awesome products for the web using HTML, CSS, Sass, JavaScript, React and Node.
+                I'm open to collaboration on any exciting project.
+            </p>
+        </div>
+    </header>
+    <main class="main">
+        <section class="profile--container">
+            <h2 class="header--secondary bd-bottom">About Me</h2>
+            <p class="paragraph--text">
+                <!-- <span class="hello--text">Hello, I'm Dennis</span> -->
+                I'm a software developer currently training with Stutern.
+                I build awesome products for the web using HTML, CSS, Sass, JavaScript, React and Node.
+                I'm open to collaboration on any exciting project.
+            </p>
+            <img src="./assets/dennis.jpg" alt="dennis" class="profile--image">
+            <div class="social--contacts">
+                <ul class="social--icon">
+                    <li class="social--icon__list">
+                        <a href="">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li class="social--icon__list">
+                        <a href="">
+                                <i class="fab fa-github"></i>
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <h2 class="header--secondary mt-5 bd-bottom">Some things I've built</h2>
+
+        <section class="project--container">
+            <div class="projects--content mt-5">
+                <h4 class="header--tertiary">PiggyVest Interest Calculator</h4>
+                <p class="project--text">HTML & Bootstrap</p>
+                <p class="project--description">PiggyVest Interest calculator landing page</p>
+                <div class="view--icon">
+                    <ul class="view--icon--list">
+                        <li class="view--icon--listItem">
+                            <a href="https://piggy-vest-interest-calculator.vercel.app/" target="_blank"">
+                                <i class="far fa-eye"></i>
+                            </a>
+                        </li>
+                        <li class="view--icon--listItem">
+                            <a href="https://github.com/Denniman/piggyVest-interest-calculator" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+
+            <div class="projects--content mt-5">
+                <h4 class="header--tertiary">Pricing Component</h4>
+                <p class="project--text">HTML, Sass, JavaScript</p>
+                <p class="project--description">Pricing Component with toggle</p>
+                <div class="view--icon">
+                    <ul class="view--icon--list">
+                        <li class="view--icon--listItem">
+                            <a href="https://pricing-component-denniman.vercel.app/" target="_blank"">
+                                <i class="far fa-eye"></i>
+                            </a>
+                        </li>
+                        <li class="view--icon--listItem">
+                            <a href="https://github.com/Denniman/pricing-component" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+
+            <div class="projects--content mt-5">
+                <h4 class="header--tertiary">Testimonial</h4>
+                <p class="project--text">HTML, CSS, Sass</p>
+                <p class="project--description">Testimonial Grid Section</p>
+                <div class="view--icon">
+                    <ul class="view--icon--list">
+                        <li class="view--icon--listItem">
+                            <a href="https://testimonial-grid-challenge.vercel.app/" target="_blank"">
+                                <i class="far fa-eye"></i>
+                            </a>
+                        </li>
+                        <li class="view--icon--listItem">
+                            <a href="https://github.com/Denniman/testimonial-grid-challenge" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <h2 class="header--secondary mt-5 bd-bottom">Contact me</h2>
+
+        <section class="contact">
+            <form action="#" class="contact--form">
+                <div class="form--control">
+                    <input type="text" name="fullName" id="fullName" placeholder="Full name" class="form--input" autocomplete="off">
+                    <label for="fullName" class="label">Full name</label>
+                </div>
+                <div class="form--control">
+                    <input type="email" name="email" id="" placeholder="Email address" class="form--input" autocomplete="off">
+                    <label for="fullName" class="label">Email Address</label>
+                </div>
+                <div class="form--control">     
+                    <textarea name="" id="" class="textarea" cols="30" rows="10" placeholder="Message..."></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
