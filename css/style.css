@@ -39,6 +39,10 @@ body {
     padding: 1rem 3rem;
 }
 
+.nav--link {
+    text-decoration: none;
+}
+
 .logo {
     width: 10%;
 }
@@ -90,7 +94,6 @@ body {
 
 .social--contacts {
     background-color: var(--main-bg-color);
-    /* background-color: rgba(13, 20, 59, .7); */
     text-align: center;
     margin-top: 2.5rem;
     padding: 1.7rem 3rem;
@@ -268,4 +271,16 @@ body {
     background-color: var(--main-bg-color);
     text-align: center;
     font-size: 1.7rem;
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .nav--list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
