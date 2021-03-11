@@ -15,10 +15,10 @@
 }
 
 html {
-    /* font-size: 62.5%; */
     font-size: 50%;
     box-sizing: border-box;
     line-height: 1.7;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -119,7 +119,7 @@ body {
 }
 
 .project--container {
-    /* margin-top: 4rem; */
+    margin: .5rem 1.5rem;
 }
 
 .bd-bottom {
@@ -145,8 +145,6 @@ body {
     background-color: var(--main-bg-color);
     padding: 1.5rem 5rem;
 }
-
-
 
 .header--tertiary {
     font-size: 2rem;
@@ -189,7 +187,6 @@ body {
     padding: 2rem 8rem;
     margin-top: 3rem;
     background-color: var(--main-bg-color);
-    /* width: 100%; */
     border-radius: .5rem;
 }
 
@@ -239,6 +236,7 @@ body {
 .textarea {
     padding: 1.5rem 2rem;
     border-radius: .5rem;
+    width: 100%;
     border: none;
     outline: none;
 }
@@ -278,9 +276,85 @@ body {
         font-size: 62.5%;
     }
 
-    .nav--list {
+    .nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
+    .logo {
+        width: 9rem;
+    }
+
+    .nav--list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 2rem;
+        margin-right: 10rem;
+    }
+    
+    .nav--list__item:not(:last-child) {
+        margin-right: 10rem;
+    }
+    .nav--link {
+        color: #fff;
+    }
+
+    .nav--link:hover {
+        border-bottom: 2px solid tomato;
+    }
+
+    .header--text {
+        margin: .5rem 20rem;
+        font-size: 5rem;
+    }
+
+    .paragraph--text {
+        font-size: 2rem;
+    }
+
+    .hello--text {
+        font-size: 3.5rem;
+        letter-spacing: .8rem;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 5rem;
+     }
+
+    .profile--container {
+        margin-top: 5rem;
+    }
+
+    .paragraph--text {
+        line-height: 2;
+    }
+
+    .project--container {
+        margin: .5rem 5rem;
+        width: 100%;
+    }
+
+    .contact {
+        width: 50%;
+    }
+
+    .projects--content {
+        width: 50%;
+        height: auto;  
+    }
+
+    .view--icon--listItem {
+        font-size: 1.5rem;
+    }
+
+    .contact--form {
+        padding: 5rem 10rem;
+    }
+
 }

@@ -11,13 +11,14 @@
     <title> Dennis Terna | My Portfolio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <nav class="nav">
             <img src="./assets/logo.PNG" alt="logo" class="logo">
             <ul class="nav--list">
-                <li class="nav--list__item"><a href="#" class="nav--link">Home</a></li>
-                <li class="nav--list__item"><a href="#" class="nav--link">Projects</a></li>
-                <li class="nav--list__item"><a href="#" class="nav--link">Contact</a></li>
+                <li class="nav--list__item"><a href="#home" class="nav--link">Home</a></li>
+                <li class="nav--list__item"><a href="#aboutme" class="nav--link">About me</a></li>
+                <li class="nav--list__item"><a href="#projects" class="nav--link">Projects</a></li>
+                <li class="nav--list__item"><a href="#contact" class="nav--link">Contact</a></li>
             </ul>
         </nav>
         <div class="header--text">
@@ -30,13 +31,19 @@
         </div>
     </header>
     <main class="main">
-        <section class="profile--container">
+        <section class="profile--container" id="aboutme">
             <h2 class="header--secondary bd-bottom">About Me</h2>
             <p class="paragraph--text">
-                <!-- <span class="hello--text">Hello, I'm Dennis</span> -->
-                I'm a software developer currently training with Stutern.
-                I build awesome products for the web using HTML, CSS, Sass, JavaScript, React and Node.
-                I'm open to collaboration on any exciting project.
+                Hello! I'm Dennis Terna, a software developer based in Yenagoa, Nigeria.
+            </p>
+            <p class="paragraph--text">
+                I am a gradaute of Political Science, Niger Delta University, Wilberforce Island, Bayelsa State.
+            </p>
+            <p class="paragraph--text">
+                I enjoy building digital products, whether that be websites or applications. 
+            </p>
+            <p class="paragraph--text">
+                Feel free to reach out to me with interesting ideas. 
             </p>
             <img src="./assets/dennis.jpg" alt="dennis" class="profile--image">
             <div class="social--contacts">
@@ -58,7 +65,7 @@
 
         <h2 class="header--secondary mt-5 bd-bottom">Some things I've built</h2>
 
-        <section class="project--container">
+        <section class="project--container" id="projects">
             <div class="projects--content mt-5">
                 <h4 class="header--tertiary">PiggyVest Interest Calculator</h4>
                 <p class="project--text">HTML & Bootstrap</p>
@@ -69,11 +76,13 @@
                             <a href="https://piggy-vest-interest-calculator.vercel.app/" target="_blank"">
                                 <i class="far fa-eye"></i>
                             </a>
+                            Live
                         </li>
                         <li class="view--icon--listItem">
                             <a href="https://github.com/Denniman/piggyVest-interest-calculator" target="_blank">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
+                            Code
                         </li>
                     </ul>
                     
@@ -91,11 +100,13 @@
                             <a href="https://pricing-component-denniman.vercel.app/" target="_blank"">
                                 <i class="far fa-eye"></i>
                             </a>
+                            Live
                         </li>
                         <li class="view--icon--listItem">
                             <a href="https://github.com/Denniman/pricing-component" target="_blank">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
+                            Code
                         </li>
                     </ul>
                     
@@ -113,11 +124,13 @@
                             <a href="https://testimonial-grid-challenge.vercel.app/" target="_blank"">
                                 <i class="far fa-eye"></i>
                             </a>
+                            Live
                         </li>
                         <li class="view--icon--listItem">
                             <a href="https://github.com/Denniman/testimonial-grid-challenge" target="_blank">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
+                            Code
                         </li>
                     </ul>
                     
@@ -128,7 +141,7 @@
 
         <h2 class="header--secondary mt-5 bd-bottom">Contact me</h2>
 
-        <section class="contact">
+        <section class="contact" id="contact">
             <form action="#" class="contact--form">
                 <div class="form--control">
                     <input type="text" name="fullName" id="fullName" placeholder="Full name" class="form--input" autocomplete="off">
@@ -141,7 +154,7 @@
                 <div class="form--control">     
                     <textarea name="" id="" class="textarea" cols="30" rows="10" placeholder="Message..."></textarea>
                 </div>
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" class="btn">Send</button>
             </form>
         </section>
     </main>
